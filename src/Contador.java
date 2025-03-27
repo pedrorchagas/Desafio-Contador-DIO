@@ -22,7 +22,7 @@ public class Contador {
 
     public static void contar(int param1, int param2) throws ParametrosInvalidosException{
         if (param1 < param2) {
-            for (int interacoes = 0; interacoes <= param2 - param1; interacoes++) {
+            for (int interacoes = 1; interacoes <= param2 - param1; interacoes++) {
                 System.out.println("Imprimindo o número " + interacoes);
             }
         } else {
